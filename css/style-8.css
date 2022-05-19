@@ -1,0 +1,127 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-image: url(../images/bg-texture-wood.jpg);
+    background-size: cover;
+    
+}
+.header img{
+    display: block;
+    width: 900px;
+    margin:15px auto 0 auto;
+}
+ul{
+    list-style: none;
+    margin: 0 auto;
+    padding: 0;
+    height: 35px;
+    line-height: 35px;
+    background-color: #d1d1d1;
+    width: 900px;
+}
+ li{
+    float: left;
+}
+
+li a{
+    display: block;
+    padding: 0 38px 0 9px;
+    background: rgba(221, 221, 221, 0.9);
+    text-decoration: none;
+    color: #fff;
+}
+ .active a{
+     color: black;
+}
+.wrapper{
+    display: flex;
+    height: 100%;
+    box-sizing: border-box;
+
+}
+.section{
+    display: flex;
+    background: #fff;
+    width: 900px;
+    margin: 0px auto;
+    padding: 10px 0px 0px 15px;
+    box-sizing: border-box;
+    height: 100vh;
+}
+.image{
+    display: flex;
+    flex-direction: column;
+    line-height: 50px;
+}
+.section-1{
+    display: flexbox;
+    width: 300px;
+    margin: 0 auto;
+    float: left;
+}
+h3{
+    line-height: 15px;
+}
+.para{
+    color: rgb(238, 135, 152);
+    line-height: 1px;
+}
+.section-2{
+    /* display: block; */
+    max-width: 207px;
+    margin: 0 auto;
+    /* float: left; */
+    line-height: 21px;
+    color: rgb(238, 135, 152);
+}
+
+
+
+
+
+
+:root{--grey:#9e7d37;
+    --white:#fff;
+    --optional:#D1D1D1;
+  }
+.btn{
+    display: flex;
+    align-items: flex-end;
+    width: 300px;
+    height: 18vh;
+}
+.btn-but{
+  display: flex;
+ justify-content: center;
+ align-items: center;
+ background: none;
+ color: var(--black);
+ border: 2px solid black;
+ text-transform: capitalize;
+ font-size: 25px;
+ margin: 30px auto;
+ padding: 15px 25px;
+ border-radius: 5px;
+ position: relative;
+ transition: color 0.3s ease-in-out;
+ width: 180px;
+ text-align: center;
+ text-decoration: none;
+ font-weight: 700;
+}
+
+.btn-but::before{
+content: "";
+position: absolute;
+width: 0;height: 100%;
+background: var(--grey);
+top: 0;left: 0;
+transition: width 0.3s ease-in-out;
+z-index: -1;
+}
+.btn-but:hover::before{width: 100%;}
+
+.btn-but:hover{color: #b5c1ad;}
