@@ -44,7 +44,7 @@ li a{
     margin: 0px auto;
     padding: 13px 0px 0px 14px;
     box-sizing: border-box;
-    height: 75vh;
+    height: 85vh;
 }
 .image{
     display: flex;
@@ -105,12 +105,6 @@ footer{
     padding: 20px 0 0 10px;
     margin: 0 auto;
 }
-
-
-
-
-
-
 :root{--grey:#b3b1b1;
     --white:#fff;
     --optional:#D1D1D1;
@@ -122,8 +116,6 @@ footer{
     height: 18vh;
     margin: 0 auto;
     color:#fff;
-
-  
 }
 .btn-but{
   display: flex;
@@ -156,4 +148,4 @@ z-index: -1;
 }
 .btn-but:hover::before{width: 100%;}
 
-.btn-but:hover{color: #b5c1ad;}
+.btn-but:hover{color: blue;}
