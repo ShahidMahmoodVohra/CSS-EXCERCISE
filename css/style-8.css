@@ -1,3 +1,4 @@
+
 body{
     margin: 0;
     padding: 0;
@@ -6,7 +7,6 @@ body{
     font-family: Georgia, 'Times New Roman', Times, serif;
     background-image: url(../images/bg-texture-wood.jpg);
     background-size: cover;
-    
 }
 .header img{
     display: block;
@@ -19,7 +19,7 @@ ul{
     padding: 0;
     height: 35px;
     line-height: 35px;
-    background-color: #d1d1d1;
+    background-color: #b3b1b1;
     width: 900px;
 }
  li{
@@ -29,27 +29,22 @@ ul{
 li a{
     display: block;
     padding: 0 38px 0 9px;
-    background: rgba(221, 221, 221, 0.9);
+    background-color: #b3b1b1;
     text-decoration: none;
     color: #fff;
 }
  .active a{
      color: black;
 }
-.wrapper{
-    display: flex;
-    height: 100%;
-    box-sizing: border-box;
-
-}
 .section{
     display: flex;
     background: #fff;
     width: 900px;
+    flex-wrap: wrap;
     margin: 0px auto;
-    padding: 10px 0px 0px 15px;
+    padding: 13px 0px 0px 14px;
     box-sizing: border-box;
-    height: 100vh;
+    height: 75vh;
 }
 .image{
     display: flex;
@@ -60,30 +55,63 @@ li a{
     display: flexbox;
     width: 300px;
     margin: 0 auto;
-    float: left;
+    box-sizing: border-box;
 }
 h3{
-    line-height: 15px;
+    line-height: 12px;
 }
 .para{
     color: rgb(238, 135, 152);
     line-height: 1px;
+    padding-bottom: 10px;
+}
+.para-1{
+    line-height: 20px;
 }
 .section-2{
-    /* display: block; */
     max-width: 207px;
     margin: 0 auto;
-    /* float: left; */
     line-height: 21px;
     color: rgb(238, 135, 152);
 }
 
+.section-3{
+    display: flexbox;
+    width: 312px;
+    margin: 0 auto;
+  
+}
+
+.section-4{
+    min-width: 214px;
+    margin: 0 auto;
+    line-height: 21px;
+    color: rgb(238, 135, 152);
+}
+.last{
+    color: black;
+    line-height: 8px;
+    padding-top: 10px;
+}
+
+footer{
+    box-sizing: border-box;
+    display: flex;
+    justify-content: start;
+    background-color: #b3b1b1;
+     color: #fff;
+    width: 900px;
+    height: 50px;
+    padding: 20px 0 0 10px;
+    margin: 0 auto;
+}
 
 
 
 
 
-:root{--grey:#9e7d37;
+
+:root{--grey:#b3b1b1;
     --white:#fff;
     --optional:#D1D1D1;
   }
@@ -92,6 +120,10 @@ h3{
     align-items: flex-end;
     width: 300px;
     height: 18vh;
+    margin: 0 auto;
+    color:#fff;
+
+  
 }
 .btn-but{
   display: flex;
